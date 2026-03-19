@@ -1,0 +1,49 @@
+# Build artifacts
+build/
+!build/plot_energy.py
+!build/run_sweep.sh
+
+# Preprocessor data files (large, generated)
+*.bctypes
+*.bcvalues
+*.ciNodesU
+*.ciNodesV
+*.data1
+*.data2
+*.iClouds
+*.icdvalues
+*.icvalues
+*.infNodesIndex
+*.nodes
+*.prenotch
+*.vinodes
+
+# Solver output files
+*.energy
+*.verify
+*_out/
+
+# Results
+results_nu_sweep/
+
+# OS files
+.DS_Store
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.xcodeproj
+*.xcworkspace
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
